@@ -1,0 +1,92 @@
+[17:17:42] [ServerMain/INFO]: [bootstrap] Running Java 23 (Java HotSpot(TM) 64-Bit Server VM 23.0.2+7-58; Oracle Corporation null) on Windows 10 10.0 (amd64)
+[17:17:42] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-118-main@73f7736 (2025-01-18T13:37:35Z) for Minecraft 1.21.4
+[17:17:43] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:17:49] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[17:17:49] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - CarbonChat (3.0.0-beta.28)
+[17:17:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:17:59] [ServerMain/INFO]: Loaded 1370 recipes
+[17:17:59] [ServerMain/INFO]: Loaded 1481 advancements
+[17:17:59] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[17:17:59] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 652.9ms
+[17:17:59] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[17:17:59] [Server thread/INFO]: Loading properties
+[17:18:00] [Server thread/INFO]: This server is running Paper version 1.21.4-118-main@73f7736 (2025-01-18T13:37:35Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[17:18:00] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:18:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:18:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:18:00] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[17:18:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[17:18:01] [Server thread/INFO]: Default game type: SURVIVAL
+[17:18:01] [Server thread/INFO]: Generating keypair
+[17:18:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:18:01] [Server thread/INFO]: Using default channel type
+[17:18:01] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[17:18:01] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[17:18:01] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins\carbonchat-paper-3.0.0-beta.28.jar' in 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [LuckPerms]. Please download and install these plugins to run 'CarbonChat'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.4.jar:1.21.4-118-73f7736]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.4.jar:1.21.4-118-73f7736]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39) ~[paper-1.21.4.jar:1.21.4-118-73f7736]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:562) ~[paper-1.21.4.jar:1.21.4-118-73f7736]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:277) ~[paper-1.21.4.jar:1.21.4-118-73f7736]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-118-73f7736]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-118-73f7736]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[?:?]
+[17:18:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:18:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:18:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:18:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:18:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:18:01] [Server thread/INFO]: Preparing level "world"
+[17:18:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:18:02] [Server thread/INFO]: Preparing spawn area: 0%
+[17:18:03] [Server thread/INFO]: Preparing spawn area: 0%
+[17:18:03] [Server thread/INFO]: Preparing spawn area: 0%
+[17:18:03] [Server thread/INFO]: Time elapsed: 1336 ms
+[17:18:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:18:03] [Server thread/INFO]: Preparing spawn area: 0%
+[17:18:04] [Server thread/INFO]: Preparing spawn area: 20%
+[17:18:04] [Server thread/INFO]: Time elapsed: 719 ms
+[17:18:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:18:04] [Server thread/INFO]: Preparing spawn area: 0%
+[17:18:04] [Server thread/INFO]: Time elapsed: 217 ms
+[17:18:05] [Server thread/INFO]: [spark] Starting background profiler...
+[17:18:05] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[17:18:05] [Server thread/INFO]: Done preparing level "world" (3.780s)
+[17:18:05] [Server thread/INFO]: Running delayed init tasks
+[17:18:05] [Server thread/INFO]: Done (26.137s)! For help, type "help"
+[17:18:05] [User Authenticator #0/INFO]: UUID of player bayotsialex is ec760d6c-8773-38a6-a81f-6c010c41dedd
+[17:18:07] [Server thread/INFO]: bayotsialex joined the game
+[17:18:07] [Server thread/INFO]: bayotsialex[/127.18.104.242:63075] logged in with entity id 161 at ([world]53.235119585735525, 74.0, -519.593158909271)
+[17:19:28] [User Authenticator #1/INFO]: UUID of player zerschful is b88a7b12-1678-31ee-bead-9387f3a9e180
+[17:19:30] [Server thread/INFO]: zerschful joined the game
+[17:19:30] [Server thread/INFO]: zerschful[/127.121.114.248:63168] logged in with entity id 527 at ([world]10.013465889162203, -26.0, -567.5655308901588)
+[17:24:42] [Server thread/INFO]: zerschful has made the advancement [Take Aim]
+[17:25:49] [Server thread/INFO]: bayotsialex has made the advancement [The Parrots and the Bats]
+[17:40:09] [Async Chat Thread - #0/INFO]: [Not Secure] <bayotsialex> zzzzzzzzzzzzzzzzzzzzzz
+[17:44:26] [Server thread/INFO]: zerschful has made the advancement [A Seedy Place]
+[17:56:45] [Server thread/INFO]: bayotsialex was shot by Skeleton
+[17:57:07] [Server thread/INFO]: bayotsialex was slain by Zombie
+[17:59:47] [Server thread/INFO]: bayotsialex was shot by Skeleton
+[17:59:56] [Async Chat Thread - #1/INFO]: [Not Secure] <zerschful> idiot
+[18:05:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7392ms or 147 ticks behind
+[18:05:47] [Server thread/INFO]: bayotsialex lost connection: Disconnected
+[18:05:47] [Server thread/INFO]: bayotsialex left the game
+[18:08:20] [Server thread/INFO]: Unknown game mode: 1
+gamemode 1<--[HERE]
+[18:08:32] [Server thread/INFO]: Unknown or incomplete command, see below for error
+gamemode<--[HERE]
+[18:08:38] [Server thread/INFO]: --------- Help: /gamemode -----------------------
+[18:08:38] [Server thread/INFO]: Description: A Mojang provided command.
+[18:08:38] [Server thread/INFO]: Usage: gamemode
+[18:08:43] [Server thread/INFO]: --------- Help: /gamemode -----------------------
+[18:08:43] [Server thread/INFO]: Description: A Mojang provided command.
+[18:08:43] [Server thread/INFO]: Usage: gamemode
+[18:08:57] [Server thread/INFO]: No help for gamemode creative
+[18:10:14] [Server thread/INFO]: Set zerschful's game mode to Creative Mode
+[18:42:16] [Server thread/INFO]: Set zerschful's game mode to Survival Mode
+[18:42:58] [Server thread/INFO]: Gave 64 [Torch] to zerschful
+[18:43:11] [Server thread/INFO]: Gave 64 [Torch] to zerschful
+[18:47:04] [Server thread/INFO]: zerschful lost connection: Disconnected
+[18:47:04] [Server thread/INFO]: zerschful left the game
